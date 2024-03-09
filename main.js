@@ -16,18 +16,18 @@ $(document).ready(function() {
         }
     });
     // Hiển thị chữ chạy
-    var typed = new Typed(".typing", {
-        strings: ["là một cô giáo tiểu học"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
+    var typed1 = new Typed(".typing", {
+        strings: ["We promote sustainability and ensure lasting value for partners and projects."],
+        typeSpeed: 30,
+        // backSpeed: 10,
+        loop: false
     });
     var now=Date.now();
     var love = new Date("2021-11-22");
     var count=now-love;
     var days = Math.floor(count / (1000 * 60 * 60 * 24));
     var typed = new Typed(".typing-2", {
-        strings: ["đang làm người iu của Mai Vinh Quang được "+days +" ngày rồi đó", "đang khum có nhu cầu tìm bạn trai nữaaa"],
+        strings: [""],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
